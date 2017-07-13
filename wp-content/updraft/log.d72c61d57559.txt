@@ -1,0 +1,225 @@
+0000.000 (0) Opened log file at time: Wed, 12 Jul 2017 14:24:34 +0000 on http://slicedbread.danielcrowe.ie
+0000.001 (0) [Warning] The amount of memory (RAM) allowed for PHP is very low (64 Mb) - you should increase it to avoid failures due to insufficient memory (consult your web hosting company for more help)
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.30 (litespeed, Linux hp215.hostpapa.com 3.10.0-427.18.2.lve1.4.27.el7.x86_64 #1 SMP Thu Dec 8 14:04:32 EST 2016 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 64M (used: 8M | 8.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.099 (0) Free space on disk containing Updraft's temporary directory: 1769838.2 MB
+0000.100 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.102 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.103 (0) Set semaphore last lock (fd) time to 2017-07-12 14:24:34
+0000.103 (0) Semaphore lock (fd) complete
+0000.105 (0) Backup run: resumption=0, nonce=d72c61d57559, begun at=1499869474 (0s ago), job type=backup
+0000.106 (0) Scheduling a resumption (1) after 300 seconds (1499869774) in case this run gets aborted
+0000.120 (0) Checking if we have a zip executable available
+0000.121 (0) Testing: /usr/bin/zip
+0000.125 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.126 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.127 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.127 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.131 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.132 (0) Working binary zip found: /usr/bin/zip
+0000.133 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.133 (0) Creation of backups of directories: beginning
+0000.135 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.004 (0) Total entities for the zip file: 868 directories, 4342 files (0 skipped as non-modified), 55 MB
+0001.009 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.012 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.015 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.018 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.020 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.021 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 4342 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.561 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: size is now: 2.60 MB
+0001.564 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 600 files added (on-disk size: 2677.8 KB)
+0004.095 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.3 MB, 100 (601) files added so far); re-opening (prior size: 2677.8 KB)
+0004.248 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 700 files added (on-disk size: 2811.6 KB)
+0004.250 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 800 files added (on-disk size: 2811.6 KB)
+0004.252 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 900 files added (on-disk size: 2811.6 KB)
+0004.255 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1000 files added (on-disk size: 2811.6 KB)
+0004.257 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1100 files added (on-disk size: 2811.6 KB)
+0004.257 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 4342 files batched, 501 (1102) added so far); re-opening (prior size: 2811.6 KB)
+0004.567 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: size is now: 3.50 MB
+0004.571 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1200 files added (on-disk size: 3544.6 KB)
+0004.573 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1300 files added (on-disk size: 3544.6 KB)
+0004.575 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1400 files added (on-disk size: 3544.6 KB)
+0004.577 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1500 files added (on-disk size: 3544.6 KB)
+0004.578 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1600 files added (on-disk size: 3544.6 KB)
+0004.579 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.3 MB, 4342 files batched, 501 (1603) added so far); re-opening (prior size: 3544.6 KB)
+0017.820 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: size is now: 8.40 MB
+0017.825 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1700 files added (on-disk size: 8610.2 KB)
+0017.827 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1800 files added (on-disk size: 8610.2 KB)
+0017.829 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 1900 files added (on-disk size: 8610.2 KB)
+0017.832 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2000 files added (on-disk size: 8610.2 KB)
+0017.834 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2100 files added (on-disk size: 8610.2 KB)
+0017.835 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 4342 files batched, 501 (2104) added so far); re-opening (prior size: 8610.2 KB)
+0026.467 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: size is now: 10.90 MB
+0026.472 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2200 files added (on-disk size: 11169 KB)
+0033.430 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.4 MB, 97 (2201) files added so far); re-opening (prior size: 11169 KB)
+0041.589 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2300 files added (on-disk size: 11299.8 KB)
+0041.592 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2400 files added (on-disk size: 11299.8 KB)
+0041.594 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2500 files added (on-disk size: 11299.8 KB)
+0041.597 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2600 files added (on-disk size: 11299.8 KB)
+0041.600 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2700 files added (on-disk size: 11299.8 KB)
+0041.600 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.7 MB, 4342 files batched, 501 (2702) added so far); re-opening (prior size: 11299.8 KB)
+0048.740 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2800 files added (on-disk size: 11646.9 KB)
+0048.742 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 2900 files added (on-disk size: 11646.9 KB)
+0048.744 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3000 files added (on-disk size: 11646.9 KB)
+0048.746 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3100 files added (on-disk size: 11646.9 KB)
+0048.748 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3200 files added (on-disk size: 11646.9 KB)
+0048.749 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 4342 files batched, 501 (3203) added so far); re-opening (prior size: 11646.9 KB)
+0060.206 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3300 files added (on-disk size: 13674.9 KB)
+0060.208 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3400 files added (on-disk size: 13674.9 KB)
+0065.962 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (1.9 MB, 198 (3401) files added so far); re-opening (prior size: 13674.9 KB)
+0074.167 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3500 files added (on-disk size: 14247.6 KB)
+0074.169 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3600 files added (on-disk size: 14247.6 KB)
+0074.171 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3700 files added (on-disk size: 14247.6 KB)
+0074.173 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3800 files added (on-disk size: 14247.6 KB)
+0074.175 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 3900 files added (on-disk size: 14247.6 KB)
+0074.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 4342 files batched, 501 (3902) added so far); re-opening (prior size: 14247.6 KB)
+0092.129 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: size is now: 17.90 MB
+0092.133 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 4000 files added (on-disk size: 18370.4 KB)
+0092.135 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 4100 files added (on-disk size: 18370.4 KB)
+0092.137 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 4200 files added (on-disk size: 18370.4 KB)
+0092.139 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip.tmp: 4300 files added (on-disk size: 18370.4 KB)
+0110.377 (0) Created plugins zip (0) - 19525.3 KB in 110.2 s (177.3 KB/s) (sha1: 205078c537f81fb4631bb4e831792f1a967faa39, sha256: 5cb95e838a1459a43e50b85cb519811ce1aae484d798e880b668e781c5c64c1e)
+0110.379 (0) Beginning creation of dump of themes (split every: 400 MB)
+0110.580 (0) Total entities for the zip file: 50 directories, 259 files (0 skipped as non-modified), 4.5 MB
+0110.582 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0110.584 (0) Zip: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0114.309 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-themes.zip.tmp: size is now: 3.30 MB
+0114.345 (0) Created themes zip (0) - 3354.1 KB in 3.9 s (867.8 KB/s) (sha1: 77acf3b81cd631369573df7d6f8ab2585435bb75, sha256: 793eda1416ac04644aa70809860912b4deba9ee06da2a322834907f8f89d2cc6)
+0114.347 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0114.348 (0) Looking for candidates to back up in: /home/danie465/slicedbread.danielcrowe.ie/wp-content/uploads
+0114.348 (0) finding files: 2017: adding to list (1)
+0114.348 (0) finding files: siteorigin-widgets: adding to list (2)
+0114.349 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0114.437 (0) Total entities for the zip file: 3 directories, 76 files (0 skipped as non-modified), 1.4 MB
+0119.452 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-uploads.zip.tmp: size is now: 1.40 MB
+0124.603 (0) Created uploads zip (0) - 1383.3 KB in 10.2 s (136 KB/s) (sha1: f728976dc78f36e15cef82fe345f3f92cb894ef3, sha256: 94e494c739e250350ad58c11cef092ea9ea501f8be25cbed98c1adc1b3812625)
+0124.608 (0) Beginning backup of other directories found in the content directory (index: 0)
+0124.608 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0124.609 (0) Looking for candidates to back up in: /home/danie465/slicedbread.danielcrowe.ie/wp-content
+0124.610 (0) finding files: upgrade: skipping: excluded by options
+0124.610 (0) finding files: index.php: adding to list (1)
+0124.611 (0) finding files: uploads: skipping: this is the uploads directory
+0124.612 (0) finding files: plugins: skipping: this is the plugins directory
+0124.612 (0) finding files: themes: skipping: this is the themes directory
+0124.613 (0) finding files: updraft: skipping: this is the updraft directory
+0124.714 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0124.718 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-others.zip.tmp: size is now: 0.00 MB
+0124.721 (0) Created others zip (0) - 0.2 KB in 0 s (21.8 KB/s) (sha1: 530215faccc2668d792acec18b47613c24a23b38, sha256: 5a4c94fc1498465065726b8969b2c4d588c81325806d88c9695af4733f9929e4)
+0124.724 (0) Saving backup status to database (elements: 8)
+0124.725 (0) Beginning creation of database dump (WordPress DB)
+0124.726 (0) Testing: /usr/bin/mysqldump
+0124.824 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1217 bytes total)
+0124.826 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0124.829 (0) Table wp_options: Total expected rows (approximate): 252
+0124.868 (0) Table wp_options: Total rows added: 247 in 0.04 seconds
+0124.869 (0) Table wp_options: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_options.table.gz - 237.9 KB)
+0124.871 (0) Table wp_users: Total expected rows (approximate): 2
+0124.872 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0124.872 (0) Table wp_users: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_users.table.gz - 0.7 KB)
+0124.874 (0) Table wp_usermeta: Total expected rows (approximate): 106
+0124.876 (0) Table wp_usermeta: Total rows added: 106 in 0.00 seconds
+0124.877 (0) Table wp_usermeta: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_usermeta.table.gz - 2.3 KB)
+0124.879 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0124.879 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0124.880 (0) Table wp_commentmeta: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0124.882 (0) Table wp_comments: Total expected rows (approximate): 1
+0124.883 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0124.883 (0) Table wp_comments: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_comments.table.gz - 0.7 KB)
+0124.885 (0) Table wp_links: Total expected rows (approximate): 0
+0124.886 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0124.887 (0) Table wp_links: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_links.table.gz - 0.4 KB)
+0124.888 (0) Table wp_postmeta: Total expected rows (approximate): 475
+0124.944 (0) Table wp_postmeta: Total rows added: 475 in 0.06 seconds
+0124.945 (0) Table wp_postmeta: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_postmeta.table.gz - 83.1 KB)
+0124.947 (0) Table wp_posts: Total expected rows (approximate): 237
+0124.987 (0) Table wp_posts: Total rows added: 237 in 0.04 seconds
+0124.988 (0) Table wp_posts: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_posts.table.gz - 59 KB)
+0124.990 (0) Table wp_term_relationships: Total expected rows (approximate): 12
+0124.991 (0) Table wp_term_relationships: Total rows added: 12 in 0.00 seconds
+0124.991 (0) Table wp_term_relationships: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0124.993 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0124.994 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0124.995 (0) Table wp_term_taxonomy: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0124.996 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0124.997 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0124.998 (0) Table wp_termmeta: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_termmeta.table.gz - 0.4 KB)
+0124.999 (0) Table wp_terms: Total expected rows (approximate): 3
+0125.000 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0125.001 (0) Table wp_terms: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_terms.table.gz - 0.4 KB)
+0125.002 (0) Table wp_toolset_post_guid_id: Total expected rows (approximate): 0
+0125.003 (0) Table wp_toolset_post_guid_id: Total rows added: 0 in 0.00 seconds
+0125.004 (0) Table wp_toolset_post_guid_id: finishing file (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_toolset_post_guid_id.table.gz - 0.3 KB)
+0125.005 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_options.table.gz (1/13): adding to final database dump
+0125.040 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_users.table.gz (2/13): adding to final database dump
+0125.041 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_usermeta.table.gz (3/13): adding to final database dump
+0125.042 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_commentmeta.table.gz (4/13): adding to final database dump
+0125.043 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_comments.table.gz (5/13): adding to final database dump
+0125.043 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_links.table.gz (6/13): adding to final database dump
+0125.044 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_postmeta.table.gz (7/13): adding to final database dump
+0125.091 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_posts.table.gz (8/13): adding to final database dump
+0125.115 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_term_relationships.table.gz (9/13): adding to final database dump
+0125.116 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_term_taxonomy.table.gz (10/13): adding to final database dump
+0125.116 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_termmeta.table.gz (11/13): adding to final database dump
+0125.117 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_terms.table.gz (12/13): adding to final database dump
+0125.117 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db-table-wp_toolset_post_guid_id.table.gz (13/13): adding to final database dump
+0125.118 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db.gz: finished writing out complete database file (352 KB)
+0125.124 (0) Total database tables backed up: 13 (backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db.gz, size: 393502, sha256)
+0125.127 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0125.128 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0125.128 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0125.128 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-others.zip: others: This file has not yet been successfully uploaded: will queue
+0125.129 (0) backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db.gz: db: This file has not yet been successfully uploaded: will queue
+0125.129 (0) Saving backup history. Total backup size: 24.1 MB
+0125.131 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0125.132 (0) Cloud backup selection (1/1): none (last)
+0125.133 (0) No remote despatch: user chose no remote backup service
+0125.134 (0) Recording as successfully uploaded: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-plugins.zip (c3702d6536e478cb1e6c8f3139ff8156)
+0125.137 (0) Recording as successfully uploaded: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-themes.zip (e3e1774f3543b1765426d99e13b9d22d)
+0125.139 (0) Recording as successfully uploaded: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-uploads.zip (b118f4815a90cb4db0ae1feff8dafb09)
+0125.142 (0) Recording as successfully uploaded: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-others.zip (f4e9f766057ddfc5c1492973b0ea0c04)
+0125.144 (0) Recording as successfully uploaded: backup_2017-07-12-1424_slicedbreadagency_d72c61d57559-db.gz (abcdfc7cdade3280ed849f1860d256d0)
+0125.147 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0125.147 (0) Number of backup sets in history: 3; groups (db): 1
+0125.147 (0) Examining (for databases) backup set with group_id=0, nonce=d72c61d57559, datestamp=1499869474 (Jul 12 2017 14:24:34)
+0125.148 (0) This backup set is the backup set just made, so will not be deleted.
+0125.148 (0) Examining (for databases) backup set with group_id=0, nonce=c26cfe0015c5, datestamp=1499850671 (Jul 12 2017 09:11:11)
+0125.149 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0125.149 (0) Examining (for databases) backup set with group_id=0, nonce=8e26fcdc1c7a, datestamp=1499811719 (Jul 11 2017 22:21:59)
+0125.149 (0) 1499811719: db: this set includes a database (backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-db.gz); db count is now 2
+0125.150 (0) 1499811719: db: over retain limit (2); will delete this database
+0125.150 (0) Delete file: backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-db.gz, service=none
+0125.150 (0) Deleting local copy (backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-db.gz)
+0125.151 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0125.151 (0) Number of backup sets in history: 3; groups (files): 1
+0125.152 (0) Examining (for files) backup set with nonce=d72c61d57559, datestamp=1499869474 (Jul 12 2017 14:24:34)
+0125.152 (0) This backup set is the backup set just made, so will not be deleted.
+0125.152 (0) This backup set is the backup set just made, so will not be deleted.
+0125.153 (0) This backup set is the backup set just made, so will not be deleted.
+0125.153 (0) This backup set is the backup set just made, so will not be deleted.
+0125.153 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0125.153 (0) Examining (for files) backup set with nonce=c26cfe0015c5, datestamp=1499850671 (Jul 12 2017 09:11:11)
+0125.153 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0125.154 (0) Examining (for files) backup set with nonce=8e26fcdc1c7a, datestamp=1499811719 (Jul 11 2017 22:21:59)
+0125.154 (0) plugins: over retain limit (2); will delete this file entity
+0125.154 (0) themes: over retain limit (2); will delete this file entity
+0125.155 (0) uploads: over retain limit (2); will delete this file entity
+0125.155 (0) others: over retain limit (2); will delete this file entity
+0125.155 (0) Delete file: backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-plugins.zip, service=none
+0125.155 (0) Deleting local copy (backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-plugins.zip)
+0125.156 (0) Delete file: backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-themes.zip, service=none
+0125.156 (0) Deleting local copy (backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-themes.zip)
+0125.156 (0) Delete file: backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-uploads.zip, service=none
+0125.157 (0) Deleting local copy (backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-uploads.zip)
+0125.157 (0) Delete file: backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-others.zip, service=none
+0125.157 (0) Deleting local copy (backup_2017-07-11-2221_slicedbreadagency_8e26fcdc1c7a-others.zip)
+0125.159 (0) This backup set is now empty; will remove from history
+0125.159 (0) Deleting log file (log.8e26fcdc1c7a.txt)
+0125.159 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0125.161 (0) Resume backup (d72c61d57559, 0): finish run
+0125.162 (0) Decremented the semaphore (fd) by 1
+0125.162 (0) Semaphore (fd) unlocked
+0125.162 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0125.164 (0) No email will/can be sent - the user has not configured an email address.
+0125.164 (0) The backup apparently succeeded and is now complete

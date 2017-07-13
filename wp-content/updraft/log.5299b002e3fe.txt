@@ -1,0 +1,72 @@
+0000.002 () Opened log file at time: Thu, 13 Jul 2017 13:30:44 +0000 on http://slicedbread.danielcrowe.ie
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.6.31 (litespeed, Linux hp215.hostpapa.com 3.10.0-427.18.2.lve1.4.27.el7.x86_64 #1 SMP Thu Dec 8 14:04:32 EST 2016 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 64M (used: 14.3M | 15M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.096 () Free space on disk containing Updraft's temporary directory: 1756070.9 MB
+0000.097 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.110 () Entity: db
+0000.110 () restore_backup(backup_file=backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-db.gz, type=db, info=a:0:{}, last_one=)
+0000.110 () Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-db.gz, 0.9 Mb)
+0000.352 () Database successfully unpacked
+0000.352 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.352 () Using direct MySQL access; value of use_mysqli is: 1
+0000.368 () Max packet size: 256 MB
+0000.368 () Entering maintenance mode
+0000.368 () Enabling Maintenance mode&#8230;
+0000.369 () Backup of: http://slicedbread.danielcrowe.ie
+0000.370 () Content URL: http://slicedbread.danielcrowe.ie/wp-content
+0000.370 () Uploads URL: http://slicedbread.danielcrowe.ie/wp-content/uploads
+0000.370 () Old table prefix: wp_
+0000.370 () Site information: multisite=0
+0000.371 () New table prefix: wp_
+0000.373 () Processing table (MyISAM): wp_options
+0000.442 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.446 () Processing table (MyISAM): wp_users
+0000.449 () Processing table (MyISAM): wp_usermeta
+0000.458 () Processing table (MyISAM): wp_commentmeta
+0000.461 () Processing table (MyISAM): wp_comments
+0000.465 () Processing table (MyISAM): wp_links
+0000.471 () Processing table (MyISAM): wp_postmeta
+0000.957 () Database queries processed: 50 in 0.59 seconds
+0000.986 () Processing table (MyISAM): wp_posts
+0001.271 () Processing table (MyISAM): wp_term_relationships
+0001.276 () Processing table (MyISAM): wp_term_taxonomy
+0001.279 () Processing table (MyISAM): wp_termmeta
+0001.281 () Processing table (MyISAM): wp_terms
+0001.284 () Processing table (MyISAM): wp_toolset_post_guid_id
+0001.285 () Unlocking database and leaving maintenance mode
+0001.285 () Disabling Maintenance mode&#8230;
+0001.285 () Finished: lines processed: 85 in 0.92 seconds
+0001.285 () Cleaning up rubbish...
+0001.292 () Entity: plugins
+0001.293 () restore_backup(backup_file=backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:60:"/home/danie465/slicedbread.danielcrowe.ie/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.293 () Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-plugins.zip, 24.6 Mb)
+0088.768 () Moving old data: filesystem method / updraft_dir is potentially possible
+0088.768 () Moving old data: can potentially use wp_filesystem method / -old
+0088.768 () Moving old data out of the way...
+0090.596 () Top-level entities being moved: wordpress-importer, index.php, simple-author-box, akismet, advanced-custom-fields, wp-user-avatars, so-widgets-bundle, updraftplus, black-studio-tinymce-widget, custom-post-type-ui, wck-custom-fields-and-custom-post-types-creator, menu-icons, recent-posts-widget-with-thumbnails, child-theme-configurator, siteorigin-panels, contact-form-7, jetpack, duplicate-post, cpo-content-types, types
+0090.768 () Moving unpacked backup into place...
+0091.545 () Top-level entities being moved: wordpress-importer, index.php, simple-author-box, akismet, wp-user-avatars, so-widgets-bundle, updraftplus, black-studio-tinymce-widget, menu-icons, recent-posts-widget-with-thumbnails, child-theme-configurator, siteorigin-panels, contact-form-7, jetpack, duplicate-post, cpo-content-types, types
+0091.561 () Cleaning up rubbish...
+0091.563 () Entity: themes
+0091.563 () restore_backup(backup_file=backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-themes.zip, type=themes, info=a:2:{s:4:"path";s:59:"/home/danie465/slicedbread.danielcrowe.ie/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0091.563 () Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-themes.zip, 3.3 Mb)
+0097.612 () Moving old data: filesystem method / updraft_dir is potentially possible
+0097.612 () Moving old data: can potentially use wp_filesystem method / -old
+0097.612 () Moving old data out of the way...
+0097.659 () Top-level entities being moved: index.php, twentysixteen, allegiant, slicedbread, twentyseventeen
+0097.660 () Moving unpacked backup into place...
+0097.683 () Top-level entities being moved: index.php, twentysixteen, allegiant, slicedbread, twentyseventeen
+0097.683 () Cleaning up rubbish...
+0097.685 () Entity: uploads
+0097.685 () restore_backup(backup_file=backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:60:"/home/danie465/slicedbread.danielcrowe.ie/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0097.685 () Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-uploads.zip, 4.2 Mb)
+0109.602 () Moving old data: filesystem method / updraft_dir is potentially possible
+0109.602 () Moving old data: can potentially use wp_filesystem method / -old
+0109.602 () Moving old data out of the way...
+0109.628 () Moving unpacked backup into place...
+0109.649 () Cleaning up rubbish...
+0109.650 () Entity: others
+0109.650 () restore_backup(backup_file=backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-others.zip, type=others, info=a:2:{s:4:"path";s:52:"/home/danie465/slicedbread.danielcrowe.ie/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0109.651 () Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-others.zip, 0 Mb)
+0109.651 () Cleaning up rubbish...
+0109.662 () Restore successful!
+0109.662 () Restore successful

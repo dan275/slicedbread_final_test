@@ -1,0 +1,51 @@
+0000.107 (R) [notice] Looking for db archive: file name: backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-db.gz
+0000.107 (R) [notice] Archive is expected to be size: 932.3 KB: OK
+0000.107 (R) [notice] Looking for plugins archive: file name: backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-plugins.zip
+0000.107 (R) [notice] Archive is expected to be size: 25163.8 KB: OK
+0000.108 (R) [notice] Looking for themes archive: file name: backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-themes.zip
+0000.108 (R) [notice] Archive is expected to be size: 3354.2 KB: OK
+0000.108 (R) [notice] Looking for uploads archive: file name: backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-uploads.zip
+0000.108 (R) [notice] Archive is expected to be size: 4351 KB: OK
+0000.108 (R) [notice] Looking for others archive: file name: backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-others.zip
+0000.108 (R) [notice] Archive is expected to be size: 0.2 KB: OK
+0000.110 (R) [notice] Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-db.gz, 0.9 Mb)
+0000.352 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.368 (R) [notice] Enabling Maintenance mode&#8230;
+0000.369 (R) [notice] Backup of: http://slicedbread.danielcrowe.ie
+0000.370 (R) [notice] Content URL: http://slicedbread.danielcrowe.ie/wp-content
+0000.370 (R) [notice] Uploads URL: http://slicedbread.danielcrowe.ie/wp-content/uploads
+0000.370 (R) [notice] Old table prefix: wp_
+0000.370 (R) [notice] Site information: multisite = 0
+0000.371 (R) [notice] New table prefix: wp_
+0000.373 (R) [notice] Processing table (MyISAM):  wp_options
+0000.446 (R) [notice] Processing table (MyISAM):  wp_users
+0000.449 (R) [notice] Processing table (MyISAM):  wp_usermeta
+0000.458 (R) [notice] Processing table (MyISAM):  wp_commentmeta
+0000.461 (R) [notice] Processing table (MyISAM):  wp_comments
+0000.465 (R) [notice] Processing table (MyISAM):  wp_links
+0000.471 (R) [notice] Processing table (MyISAM):  wp_postmeta
+0000.957 (R) [notice] Database queries processed: 50 in 0.59 seconds
+0000.986 (R) [notice] Processing table (MyISAM):  wp_posts
+0001.271 (R) [notice] Processing table (MyISAM):  wp_term_relationships
+0001.276 (R) [notice] Processing table (MyISAM):  wp_term_taxonomy
+0001.279 (R) [notice] Processing table (MyISAM):  wp_termmeta
+0001.281 (R) [notice] Processing table (MyISAM):  wp_terms
+0001.284 (R) [notice] Processing table (MyISAM):  wp_toolset_post_guid_id
+0001.285 (R) [notice] Disabling Maintenance mode&#8230;
+0001.285 (R) [notice] Finished: lines processed: 85 in 0.92 seconds
+0001.285 (R) [notice] Cleaning up rubbish...
+0001.293 (R) [notice] Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-plugins.zip, 24.6 Mb)
+0088.768 (R) [notice] Moving old data out of the way...
+0090.768 (R) [notice] Moving unpacked backup into place...
+0091.561 (R) [notice] Cleaning up rubbish...
+0091.563 (R) [notice] Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-themes.zip, 3.3 Mb)
+0097.612 (R) [notice] Moving old data out of the way...
+0097.660 (R) [notice] Moving unpacked backup into place...
+0097.683 (R) [notice] Cleaning up rubbish...
+0097.685 (R) [notice] Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-uploads.zip, 4.2 Mb)
+0109.602 (R) [notice] Moving old data out of the way...
+0109.628 (R) [notice] Moving unpacked backup into place...
+0109.649 (R) [notice] Cleaning up rubbish...
+0109.651 (R) [notice] Unpacking backup... (backup_2017-07-13-0131_slicedbreadagency_4e188f297cb0-others.zip, 0 Mb)
+0109.651 (R) [notice] Cleaning up rubbish...
+0109.662 (R) [notice] Restore successful!
