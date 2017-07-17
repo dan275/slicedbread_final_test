@@ -1,9 +1,9 @@
 /*
-Theme Name: Allegiant Child
+Theme Name: slicedbread.agency
 Theme URI: http://www.cpothemes.com/theme/allegiant
 Template: allegiant
 Author: CPOThemes
-Author URI: http://www.cpothemes.com
+Author URI: http://www.danielcrowe.ie
 Description: Allegiant is a free multipurpose WordPress theme perfect for agencies and professionals. This theme comes with support for a full homepage slider, feature blocks, portfolios, services, team members, and even testimonials, all thanks to its companion plugin CPO Content Types. Allegiant is one of the best business WordPress themes thanks to its neutral design and extreme flexibility. Moreover, this theme also integrates with popular plugins such as WooCommerce, Yoast SEO, WPML, and Contact Form 7.
 Tags: one-column,two-columns,right-sidebar,full-width-template,sticky-post,theme-options,custom-background,custom-menu,featured-images,threaded-comments,translation-ready
 Version: 1.1.5.1499851002
@@ -11,3 +11,336 @@ Updated: 2017-07-12 09:16:42
 
 */
 
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+/*----------------------- logo ---------------------*/
+.header .logo {
+    float: left;
+    padding-top: 12px;
+}
+body .primary-color-bg {
+    background-color: #2995bc;
+}
+
+/*---- no padding between main nav & content ------*/
+
+.main {
+    overflow: hidden;
+    padding: 0px 0 10px;
+}
+
+/*--- main menu navigation links & icons -----*/
+
+.menu-main li a {
+    padding: 15px;
+    font-size: 1.1em;
+    color: #333;
+}
+.menu-main li a .dashicons {
+	 color: #2995bc;
+	 position: relative;
+	 bottom: 1px
+}
+
+.menu-main li a:hover {
+	color: #196984;
+}
+
+/*--- linkedIn menu item ----*/
+.icon-2x {
+	color: #2995bc!important;
+    font-size: 1.2em!important;
+    transition: color .5s ease;
+}
+
+	.icon-2x:hover {
+		color: #333!important;
+	}
+
+
+/*------------------ theme colored text -----------*/
+
+.primeColorText {
+	color: #2995bc;
+}
+.secColorText {
+	color: #e27c04;
+}
+
+#breadcrumb {
+	display: none;
+}
+
+::selection {
+    color: #fff;
+    background-color: #2995bc!important;
+}
+
+#homePageBanner {
+	border: 2px solid #111;
+	border-left: none;
+	border-right: none;
+}
+
+#homePageBanner .so-panel .widget .widget_text .panel-widget-style{
+	margin: 0px;
+	padding: 0px
+}
+
+.so-panel {
+	margin-bottom: 0px!important;
+}
+
+/*-------------- button hover --------------*/
+
+.ow-button-base a:hover {
+    color: #fff!important;
+    background-color: #144557!important;
+	text-decoration: none;
+	transition: background 0.3s ease;
+}
+
+/*------------- sidebar widget title --------------*/
+
+#sidebar .widget-title {
+	color: #333;
+}
+
+/*----------------------------------- footer ----------------------------*/
+
+body .secondary-color-bg {
+    background-color: #144557;
+}
+
+#wpcom_social_media_icons_widget-2 .genericon-linkedin {
+	font-size: 1.5em;
+}
+
+/*--- linkedIn menu item footer ----*/
+
+#footer	.icon-2x:hover {
+	color: #fff!important;
+}
+
+#subfooter .widget-title {
+	color: #2995bc;
+}
+/*--- footer widget 1 contact details ----*/
+
+#text-2 .textwidget p {
+	margin-bottom: 8px;
+}
+
+.post-readmore .button:hover {
+	background: #2995bc!important;
+	color: #fff!important;
+}
+
+
+
+/*--- custom buttons-----*/
+
+html body .button, html body .button:link, input[type=submit] {
+    border-radius: 2px;
+    border: 2px solid #e27c04!important;
+    text-shadow: none;
+    background: none!important;
+    color: #e27c04!important;
+    -moz-transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+}
+	html body .button:hover, input[type=submit]:hover {
+	    border: 2px solid #2995bc!important;
+	    background: #2995bc!important;
+	    color: #fff!important;
+	}
+
+.page-content-right .so-widget-sow-button .ow-button-base a {
+    border-radius: 0px;
+    border: 2px solid #2995bc!important;
+    text-shadow: none;
+    font-size: 1.2em;
+    background: none!important;
+    color: #2995bc!important;
+    padding: 20px 50px!important;
+    -moz-transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+}
+	.page-content-right .so-widget-sow-button .ow-button-base a:hover {
+	    background: #2995bc!important;
+	    border: 2px solid #144557!important;
+	}
+
+/*-- main slider button --*/
+.so-widget-sow-button-flat-a31103231b20 .ow-button-base a{
+	border: 0px !important;
+}
+
+
+
+
+/*--- admin editor text dark not white-----*/
+
+.wp-editor-area {
+    color: #333!important;
+}
+#postdivrich #content textarea {
+ 	color: #333!important;
+}
+.author-info {
+	display: none;
+}
+.tagline {
+	display: none;
+}
+
+
+/*--- mobile styling - client logos-----*/
+
+@media (max-width: 780px) {
+	.portfolio-logo {
+			width: 50%;
+			margin: 4px auto;
+			padding-left: 25%;
+	}
+
+  /*-- disable parallax scroll on mobile --*/
+
+  .panel-row-style {
+  	  background-attachment: scroll!important;
+  }
+}
+
+
+
+/*----------------------------- portfolio template page ---------------------------------*/
+
+.portfolio-template-content {
+	padding-top: 30px;
+}
+
+.portfolio-template-title {
+	padding-top: 50px;
+	text-align: center; 
+	font-size: 2.6em; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	margin-bottom: 1px; 
+	padding-bottom: 1px;
+}
+
+.portfolio {
+	padding-top: 5px;
+}
+
+/*--------------------------- portfolio single item page --------------------------------*/
+
+.portfolio-page-content {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.portfolio-page-content .saboxplugin-wrap {
+	display: none!important;
+}
+
+.portfolio-return-link {
+	text-transform: uppercase;
+	text-align: right;
+	width: 100%;
+	height: 20px;
+	font-size: 1.2em;
+}
+.portfolio-return-link a::after {
+	content: "\25B6";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-left: 0.5em;
+    font-size: .8em;
+}
+
+.portfolio-return-link a:hover {
+	text-decoration: none;
+}
+
+.page-content-left {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+	.portfolio-page-title h2 {
+		margin: 25px 0px;
+		text-transform: uppercase;
+		color: #333;
+	}
+
+	.portfolio-page-image {
+		text-align: center;
+		width: 100%;
+		margin: auto;
+	}
+
+.page-content-right {
+	width: 90%;
+	text-align: left;
+	display: block;
+	margin: auto;
+	padding-top: 50px;	
+}
+	
+	.portfolio-page-subtitle {
+		font-size: 1.5em;
+		margin-bottom: 1px;
+		padding-bottom: 1px;
+		color: #333;
+	}
+	
+	.subtitle-divider {
+		width: 90%;
+		color: #ccc;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
+	.portfolio-page-description {
+		padding: 5px;
+		margin-top: 0px;
+		color: #777;
+	}
+
+	.portfolio-page-additional-info {
+		font-size: .9em;
+		color: #333;
+	}
+	
+
+
+@media (min-width: 1080px) {
+
+	.page-content-left {
+		display: inline-block;
+		float: left;
+		vertical-align: top;
+		width: 50%;
+		margin: auto;
+	}
+
+	.page-content-right {
+		display: inline-block;
+		padding-top: 0px;	
+		float: right;
+		vertical-align: top;
+		margin: auto;
+		width: 45%;
+		text-align: left;
+		padding-left: 10px;
+	}
+
+}

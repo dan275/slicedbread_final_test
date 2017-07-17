@@ -1,0 +1,90 @@
+/*
+Theme Name: Allegiant Child
+Theme URI: http://www.cpothemes.com/theme/allegiant
+Template: allegiant
+Author: CPOThemes
+Author URI: http://www.cpothemes.com
+Description: Allegiant is a free multipurpose WordPress theme perfect for agencies and professionals. This theme comes with support for a full homepage slider, feature blocks, portfolios, services, team members, and even testimonials, all thanks to its companion plugin CPO Content Types. Allegiant is one of the best business WordPress themes thanks to its neutral design and extreme flexibility. Moreover, this theme also integrates with popular plugins such as WooCommerce, Yoast SEO, WPML, and Contact Form 7.
+Tags: one-column,two-columns,right-sidebar,full-width-template,sticky-post,theme-options,custom-background,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.1.5.1499851002
+Updated: 2017-07-12 09:16:42
+
+*/
+
+/*----------------------------- portfolio template page ---------------------------------*/
+
+.portfolio-template-container {
+	padding-top: 50px!important;
+}
+
+.portfolio-template-content {
+	padding-top: 50px!important;
+}
+
+.portfolio-template-title {
+	padding-top: 50px;
+	text-align: center; 
+	font-size: 2.6em; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	margin-bottom: 1px; 
+	padding-bottom: 1px;
+}
+
+
+/*--------------------------- portfolio single item page --------------------------------*/
+
+.portfolio-page-content {
+	padding-top: 50px;
+}
+
+.page-content-left {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+	.portfolio-page-title {
+		margin: 25px 0;
+	}
+
+	.portfolio-page-image {
+		text-align: center;
+		width: 98%;
+		margin: auto;
+	}
+
+.page-content-right {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+	.portfolio-page-description-heading {
+		font-size: 1.1em;
+	}
+
+	.portfolio-page-description {
+		padding: 15px;
+	}
+
+	.portfolio-page-link {
+
+	}
+
+@media (min-width: 1080px) {
+
+	.page-content-left {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		margin: auto;
+	}
+
+	.page-content-right {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		margin: auto;
+	}
+
+}

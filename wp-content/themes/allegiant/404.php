@@ -11,7 +11,7 @@
 					404
 				</div>
 				<div class="column col2 col-last notfound-content">
-					<?php cpotheme_404(); ?>
+					<p>The page you requested page could not be found. It could have been deleted or changed location. Try searching for it using the search function.</p>
 				</div>
 				<div class="clear"></div>
 			</div>

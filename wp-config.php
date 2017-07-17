@@ -1,4 +1,8 @@
 <?php
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/home/danie465/slicedbread.danielcrowe.ie/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('CONCATENATE_SCRIPTS', false);
+
 /**
  * The base configuration for WordPress
  *
